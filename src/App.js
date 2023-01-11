@@ -1,10 +1,10 @@
 import './App.css'
-import Button from './components/shared/Button';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Contact />
     </div>
   );
 }
