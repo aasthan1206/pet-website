@@ -1,10 +1,9 @@
 import './App.css'
-import Button from './components/shared/Button';
-
+import HeroCards from './components/HeroCards';
 function App() {
   return (
     <div className="App">
-      <Button />
+      <HeroCards />
     </div>
   );
 }
