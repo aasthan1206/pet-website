@@ -15,7 +15,8 @@ module.exports = {
         'background': 'f2f0ec',
       },
       fontFamily: {
-        main: ["museo-sans-rounded"],
+        heading: ["museo-sans-rounded-900"],
+        text: ["museo-sans-rounded-500"],
       },
     },
   },

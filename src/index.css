@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: museo-sans-rounded;
+  font-family: museo-sans-rounded-900;
+  src: url(./assets/fonts/MuseoSansRounded-900.ttf);
+}
+
+@font-face {
+  font-family: museo-sans-rounded-500;
   src: url(./assets/fonts/MuseoSansRounded-500.ttf);
 }
