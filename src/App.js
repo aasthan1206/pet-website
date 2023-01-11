@@ -1,10 +1,10 @@
 import './App.css'
-import Button from './components/shared/Button';
+import FooterCards from './components/FooterCards'
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <FooterCards />
     </div>
   );
 }
