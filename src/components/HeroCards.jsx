@@ -4,7 +4,7 @@ import Button from './shared/Button'
 
 const HeroCards = () => {
   return (
-    <div className='m-8 sm:mx-12 md:mx-16 md:flex md:flex-wrap md:gap-8 md:justify-center'>
+    <div className='m-8 sm:mx-12 md:mx-16 md:flex md:flex-wrap md:gap-8 md:justify-center lg:mt-24'>
         {
             heroCardsData.map((data) => (
                 <div className={`${data.property} 2xl:grow-0 2xl:basis-96`}>
