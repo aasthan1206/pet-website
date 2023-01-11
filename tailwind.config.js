@@ -16,7 +16,7 @@ module.exports = {
       },
       fontFamily: {
         heading: ["museo-sans-rounded-900"],
-        text: ["museo-sans-rounded-500"],
+        text: ["museo-sans-rounded-500"]
       },
     },
   },
