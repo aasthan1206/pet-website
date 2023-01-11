@@ -12,7 +12,7 @@ module.exports = {
         'yellow': '#eeb100',
         'green': '#1db78e',
         'secondary': '#645b67',
-        'background': 'f2f0ec',
+        'background': '#f2f0ec',
       },
       fontFamily: {
         heading: ["museo-sans-rounded-900"],
