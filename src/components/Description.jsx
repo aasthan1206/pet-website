@@ -4,7 +4,7 @@ const Description = () => {
     const headingStyle = `text-heading font-heading`
     const linkStyle = `text-blue active:text-red-500 visited:text-purple`
   return (
-    <div className='m-6 p-2 text-center w-fit md:mx-auto md:w-[872px]'>
+    <div className='m-6 p-2 text-center w-fit md:mx-auto md:w-[800px] lg:w-[872px]'>
       <div className={`text-4xl ${headingStyle}`}>
         Every cat, dog, donkey & horse helped is dependent upon donations from people like you who share our love of animals.
       </div>

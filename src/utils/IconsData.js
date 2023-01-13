@@ -22,6 +22,6 @@ export const iconsData = [
         'img': Icon3,
         'heading': 'Veterinary Care',
         'text': "Providing veterinary care for animals in need, including working animals in the world's poorest communities",
-        'property': `md:absolute md:-bottom-10 left-24 lg:static`,
+        'property': `lg:static`,
     },
 ]

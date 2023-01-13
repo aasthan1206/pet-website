@@ -7,10 +7,12 @@ import Contact from './components/Contact'
 import Charities from './components/Charaties'
 import Footer from './components/Footer'
 import Icons from './components/Icons'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Hero />
       <HeroCards />
       <Description />
