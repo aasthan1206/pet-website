@@ -10,6 +10,7 @@ export const footerCardsData = [
         'text': 'You are helping four charities change the lives of cats, dogs, donkeys and horses who desperately need help.',
         'button': 'Your Donations',
         'img': img4,
+        'delay': "50",
     },
     {
         'id': 2,
@@ -17,6 +18,7 @@ export const footerCardsData = [
         'text': 'A unique opportunity to help four charities and make a positive difference to the lives of thousands of animals.',
         'button': 'Read More',
         'img': img3,
+        'delay': "100",
     },
     {
         'id': 3,
@@ -24,6 +26,7 @@ export const footerCardsData = [
         'text': 'A gift in your Will to Together for Animals gives thousands of animals a brighter future',
         'button': 'Find Out More',
         'img': img2,
+        'delay': "150",
     },
     {
         'id': 4,
@@ -31,5 +34,6 @@ export const footerCardsData = [
         'text': 'We are so grateful for the support we receive, no matter how big or small.',
         'button': 'Thank You',
         'img': img1,
+        'delay': "200",
     },
 ]

@@ -17,7 +17,7 @@ const Newsletter = () => {
                 <label htmlFor="" className='text-left text-text text-sm font-text px-4'>Click here if you are happy to receive emails from Together for Animals containing details about our work and our latest news.</label>
             </div>
             
-            <Button classname={`bg-purple text-white px-8 3 mt-6 mb-12`} text={'Subscribe'} />
+            <Button classname={`bg-purple text-white px-8 3 mt-6 mb-12 hover:bg-[#5c2d6e]`} text={'Subscribe'} />
         </form>
     </div>
   )
