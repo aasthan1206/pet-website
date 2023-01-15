@@ -14,7 +14,7 @@ const Description = () => {
         </div>
       </div>
       
-      <div className={`mt-12 text-3xl ${headingStyle} md:mt-20`} data-aos="fade-up" data-aos-delay="100">
+      <div className={`mt-12 text-3xl md:mt-20 ${headingStyle}`} data-aos="fade-up" data-aos-delay="100">
         Because of the kind support and <a href="https://togetherforanimals.org.uk/your-donations/" className={linkStyle}>donations</a> Together for Animals receives, we are able to help change the lives of cats, dogs, donkeys, and horses through:
       </div>
     </div>

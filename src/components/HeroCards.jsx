@@ -6,7 +6,7 @@ const HeroCards = () => {
   return (
     <div className='m-8 sm:mx-12 md:mx-16 md:flex md:flex-wrap md:gap-8 md:justify-center lg:mt-24' data-aos="fade-up" data-aos-delay="100">
         {
-            heroCardsData.map((data) => (
+            heroCardsData?.map((data) => (
                 <div className={`${data.property} 2xl:grow-0 2xl:basis-96`}>
                     <img src={data.img} alt="" className='hidden md:block md:rounded-t-lg md:h-fit' />
                     <div key={data.id} className={`mb-8 p-8 rounded-lg text-center text-white md:rounded-b-lg md:rounded-t-none ${data.bg}`}>

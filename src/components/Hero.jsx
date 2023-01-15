@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './shared/Button'
 import TFAhero from '../assets/images/TFAhero.png'
-import { useEffect } from 'react';
+import { useEffect } from 'react'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -11,7 +11,7 @@ const Hero = () => {
     AOS.init();
   }, [])
   return (
-    <div className='lg:flex lg:bg-background overflow-x-hidden lg:py-16 2xl:justify-center'>
+    <div className='overflow-x-hidden lg:flex lg:bg-background lg:py-16 2xl:justify-center'>
         <div className='lg:pl-16 lg:bg-background xl:pl-32 2xl:pl-64'>
             <div className='bg-background'>
                 <div className='p-8 text-heading text-[2.75rem] text-center font-heading font-bold leading-[48px] lg:text-left lg:pr-0 lg:w-[400px] ' data-aos="fade-up" data-aos-delay="100">No animal should suffer from injury, disease, abuse or neglect.</div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { socialIcons } from "../utils/ContactData";
+import { socialIcons } from "../utils/ContactData"
 
 const SideBar = ({style}) => {
   return (
@@ -23,7 +23,7 @@ const SideBar = ({style}) => {
             </li>
             <li className='flex justify-center gap-12 py-12'>
                 {
-                    socialIcons.map((data) => (
+                    socialIcons?.map((data) => (
                         <a href={data.link} key={data.id}><img src={data.img} alt="" /></a>
                     ))
                 }

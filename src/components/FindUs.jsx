@@ -7,7 +7,7 @@ const FindUs = () => {
         <div className='py-5 text-heading text-2xl font-heading'>Find Us</div>
         <div>
             {
-                address.map((data) => (
+                address?.map((data) => (
                     <div className='text-text font-text py-1'>{data.desc}</div>
                 ))
             }

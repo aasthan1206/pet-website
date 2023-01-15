@@ -1,10 +1,10 @@
-import React from "react";
-import tfa_logo from "../assets/images/tfa_logo.png";
-import { socialIcons } from "../utils/ContactData";
-import Button from "./shared/Button";
-import SideBar from "./SideBar";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { useState } from "react";
+import React from "react"
+import tfa_logo from "../assets/images/tfa_logo.png"
+import { socialIcons } from "../utils/ContactData"
+import Button from "./shared/Button"
+import SideBar from "./SideBar"
+import { FaBars } from "react-icons/fa"
+import { useState } from "react"
 
 const NavBar = ({ classname }) => {
   const [isActive, setIsActive] = useState(false);
@@ -42,7 +42,7 @@ const NavBar = ({ classname }) => {
           </li>
         </ul>
         <div className="xl:flex gap-x-4 self-center mt-6 ml-4 2xl:absolute 2xl:right-48 hidden">
-          {socialIcons.map((data) => (
+          {socialIcons?.map((data) => (
             <a href={data.link} key={data.id}>
               <img src={data.img} alt="" />
             </a>

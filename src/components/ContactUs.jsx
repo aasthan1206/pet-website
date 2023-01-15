@@ -12,7 +12,7 @@ const ContactUs = () => {
             </div>
             <div className='flex justify-center gap-6 py-8 lg:justify-start'>
                 {
-                    socialIcons.map((data) => (
+                    socialIcons?.map((data) => (
                         <a href={data.link} key={data.id}><img src={data.img} alt="" /></a>
                     ))
                 }
