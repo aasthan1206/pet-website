@@ -13,7 +13,7 @@ const Newsletter = () => {
             </div>
             <input type="text" placeholder='Email Address' className={inputStyle} /> <br />
             <div className='flex'>
-                <input type="checkbox" className='-mt-8 mr-2 w-12 outline-none rounded-lg sm:w-8 sm:-mt-2 lg:-mt-8 lg:w-12 2xl:mt-2' />
+                <input type="checkbox" className='-mt-6 mr-2 w-12 outline-none rounded-lg sm:w-8 sm:-mt-2 lg:-mt-8 lg:w-12 2xl:mt-2' />
                 <label htmlFor="" className='text-text text-sm font-text'>Click here if you are happy to receive emails from Together for Animals containing details about our work and our latest news.</label>
             </div>
             
